@@ -75,5 +75,3 @@ Berikut langkah-langkah untuk menjalankan project ini secara lokal:
    - **ReDoc** (dokumentasi terstruktur):
      [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
-   > 📢 Pastikan server sudah berjalan di background sebelum mengakses link di atas.
-
