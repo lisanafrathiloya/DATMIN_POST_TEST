@@ -16,24 +16,6 @@ API ini dibuat menggunakan **FastAPI** untuk melakukan prediksi berdasarkan mode
 
 ---
 
-## 📥 Input JSON Format
-
-Format input yang diterima:
-
-```json
-{
-  "Mengulang": 1200.0,
-  "Putus_Sekolah": 800.0,
-  "Rasio_Siswa_per_Guru": 20.5,
-  "Rasio_Siswa_per_Sekolah": 350.0,
-  "Persentase_Guru_belum_S1": 0.02,
-  "Persentase_Ruang_Rusak": 0.17,
-  "Total_Tenaga_Kependidikan": 8000.0,
-  "Persentase_Ruang_Baik": 0.82,
-  "Rasio_Rombel_per_Sekolah": 12.5,
-  "Provinsi_encoded": 6.0
-}
-
 ## 🛠️ Cara Menjalankan Project
 
 Berikut langkah-langkah untuk menjalankan project ini secara lokal:
@@ -74,4 +56,23 @@ Berikut langkah-langkah untuk menjalankan project ini secara lokal:
 
    - **ReDoc** (dokumentasi terstruktur):
      [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+
+
+## 📥 Input JSON Format
+
+Format input yang diterima:
+
+```json
+{
+  "Mengulang": 1200.0,
+  "Putus_Sekolah": 800.0,
+  "Rasio_Siswa_per_Guru": 20.5,
+  "Rasio_Siswa_per_Sekolah": 350.0,
+  "Persentase_Guru_belum_S1": 0.02,
+  "Persentase_Ruang_Rusak": 0.17,
+  "Total_Tenaga_Kependidikan": 8000.0,
+  "Persentase_Ruang_Baik": 0.82,
+  "Rasio_Rombel_per_Sekolah": 12.5,
+  "Provinsi_encoded": 6.0
+}
 
